@@ -6,14 +6,14 @@ const schema = buildSchema(`
     listMovies: [Movie]
   }
   type Mutation {
-    addMovie(name: String!, genre: String!, year: String!, image: String!): Movie
+    addMovie(name: String!, genre: String!, year: String!): Movie
   }
   type Movie {
     id: ID!
     name: String!
     genre: String!
     year: String!
-    imageUrl: String
+   
   }
 `);
 

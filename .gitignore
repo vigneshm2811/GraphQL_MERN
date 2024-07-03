@@ -1,5 +1,6 @@
 # Ignore node_modules in both frontend and backend
 /backend/node_modules
+
 /frontend/node_modules
 
 # Optional: Skip operating system files
@@ -8,6 +9,7 @@ Thumbs.db
 
 # Optional: Skip IDE/editor-specific files
 .vscode
+/backend/.env
 .idea
 *.suo
 *.ntvs*
